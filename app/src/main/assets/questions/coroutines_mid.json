@@ -1,0 +1,37 @@
+[
+  {
+    "id": "co_mid_001",
+    "text": "What is the difference between launch and async in Kotlin coroutines?",
+    "category": "COROUTINES",
+    "difficulty": "MID",
+    "tags": ["coroutines", "launch", "async"],
+    "modelAnswer": "launch starts a fire-and-forget coroutine returning a Job without a result. async returns a Deferred<T> whose result can be retrieved by calling await().",
+    "followUps": [
+      "What happens if an exception is thrown inside async?",
+      "How do you run concurrent network calls?"
+    ],
+    "estimatedSeconds": 90
+  },
+  {
+    "id": "co_mid_002",
+    "text": "Explain CoroutineScope and why it matters for avoiding memory leaks.",
+    "category": "COROUTINES",
+    "difficulty": "MID",
+    "tags": ["coroutines", "scope", "memory-leaks"],
+    "modelAnswer": "CoroutineScope controls coroutine lifetimes. Cancelling a scope cancels all child coroutines running inside it. Structured scopes like viewModelScope automatically cancel jobs when ViewModels are cleared.",
+    "followUps": [
+      "What is structured concurrency?",
+      "What is the difference between coroutineScope and supervisorScope?"
+    ],
+    "estimatedSeconds": 90
+  },
+  {
+    "id": "co_mid_003",
+    "text": "What is a Flow in Kotlin and how is it different from a suspend function?",
+    "category": "COROUTINES",
+    "difficulty": "MID",
+    "tags": ["flow", "coroutines"],
+    "modelAnswer": "A suspend function returns a single value asynchronously, while a Flow emits multiple sequential values asynchronously over time.",
+    "estimatedSeconds": 90
+  }
+]

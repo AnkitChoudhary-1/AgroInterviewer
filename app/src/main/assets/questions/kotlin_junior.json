@@ -1,0 +1,40 @@
+[
+  {
+    "id": "kt_jr_001",
+    "text": "What is the difference between val and var in Kotlin?",
+    "category": "KOTLIN",
+    "difficulty": "JUNIOR",
+    "tags": ["basics", "variables"],
+    "modelAnswer": "val declares an immutable (read-only) reference that can only be assigned once. var declares a mutable variable that can be reassigned. Note that val means the reference is read-only, but internal properties of a mutable object can still change.",
+    "followUps": [
+      "Can a val property have a custom getter?",
+      "What is the difference between val and const val?"
+    ],
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "kt_jr_002",
+    "text": "Explain what a data class is in Kotlin and when you would use one.",
+    "category": "KOTLIN",
+    "difficulty": "JUNIOR",
+    "tags": ["data-class", "kotlin-features"],
+    "modelAnswer": "A data class is designed primarily to hold data. The Kotlin compiler automatically generates equals(), hashCode(), toString(), copy(), and componentN() functions based on the primary constructor parameters.",
+    "followUps": [
+      "What does the copy() function do?",
+      "Can data classes inherit from other classes?"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "kt_jr_003",
+    "text": "What is a sealed class in Kotlin and how is it different from an enum?",
+    "category": "KOTLIN",
+    "difficulty": "JUNIOR",
+    "tags": ["sealed-class", "enum"],
+    "modelAnswer": "A sealed class restricts class hierarchies where all direct subclasses are known at compile-time. Subclasses can have multiple instances and state, whereas enum entries are singletons.",
+    "followUps": [
+      "How do sealed interfaces differ from sealed classes?"
+    ],
+    "estimatedSeconds": 75
+  }
+]

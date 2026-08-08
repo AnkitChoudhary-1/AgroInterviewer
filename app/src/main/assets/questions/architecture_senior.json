@@ -1,0 +1,24 @@
+[
+  {
+    "id": "arch_sr_001",
+    "text": "Explain Clean Architecture in Android. How do you structure your packages?",
+    "category": "ARCHITECTURE",
+    "difficulty": "SENIOR",
+    "tags": ["clean-architecture", "architecture"],
+    "modelAnswer": "Clean Architecture separates code into Presentation (UI, ViewModels), Domain (UseCases, Domain Models), and Data (Repositories, API, DB). Dependencies point inward toward Domain.",
+    "followUps": [
+      "What belongs in domain vs data layer?",
+      "How do you map data models to domain models?"
+    ],
+    "estimatedSeconds": 120
+  },
+  {
+    "id": "arch_sr_002",
+    "text": "How would you design an offline-first app in Android?",
+    "category": "ARCHITECTURE",
+    "difficulty": "SENIOR",
+    "tags": ["offline-first", "room", "sync"],
+    "modelAnswer": "In an offline-first app, the local Room database serves as the Single Source of Truth. The app loads data from DB immediately while fetching fresh data from network in background.",
+    "estimatedSeconds": 120
+  }
+]

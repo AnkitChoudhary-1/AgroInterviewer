@@ -1,0 +1,17 @@
+{
+  "name": "agro-interviewer-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Agora RTC token generation and Conversational AI Agent lifecycle management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "agora-token": "^2.0.3",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
