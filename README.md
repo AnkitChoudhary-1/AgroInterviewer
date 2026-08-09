@@ -20,7 +20,7 @@ Built for the **Android Engineers × Agora Conversational AI Hackathon**.
 ## Technology Stack
 
 ### **Android App**
-- **Architecture**: Kotlin, Jetpack Compose (Material 3 Dark Theme), MVVM + Repository pattern.
+- **Architecture**: Kotlin, Jetpack Compose (Just a Prototype Ui), MVVM + Repository pattern.
 - **Dependency Injection**: Hilt.
 - **Networking**: Retrofit 2 + OkHttp 4 with custom `X-API-Key` authentication interceptor.
 - **Database & Storage**: Room Database for offline session persistence and Android DataStore.
